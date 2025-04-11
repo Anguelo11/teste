@@ -1,0 +1,24 @@
+h1{
+    color: chocolate;
+    background-color: gray;
+    border: solid, black;
+    border-width: 20px;
+    width: 80vw;
+    height: 80vh;
+    display: flex; /* Habilita o flexbox */
+    align-items: center; /* Alinha o texto verticalmente */
+    justify-content: center; /* Alinha o texto horizontalmente */
+    text-align: center; /* Centraliza o texto (no caso de múltiplas linhas) */
+   
+}
+p{
+    font-size: 3em;
+    padding: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    display: flex; /* Ativa o Flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Garante que a altura seja igual à da viewport */
+}
